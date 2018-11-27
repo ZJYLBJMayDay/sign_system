@@ -9,7 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 
-public class RegisterPhtot extends AppCompatActivity {
+public class RegisterPhoto extends AppCompatActivity {
     public static final int CAMERA_REQUEST = 592;
 
     @Override
@@ -26,12 +26,12 @@ public class RegisterPhtot extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(RegisterPhtot.this,MainActivity.class );
+                Intent intent = new Intent(RegisterPhoto.this,MainActivity.class );
                 startActivity(intent);
             }
         });
     }
-
+//https://github.com/signingsystem/sign_system.git
     private void setTakePhotoButton() {
         Button button = this.findViewById(R.id.takephoto);
         button.setOnClickListener(new View.OnClickListener() {

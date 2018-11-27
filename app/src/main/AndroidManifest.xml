@@ -22,7 +22,7 @@
         </activity>
         <activity android:name=".Login" />
         <activity android:name=".Register" />
-        <activity android:name=".RegisterPhtot"></activity>
+        <activity android:name=".RegisterPhoto"></activity>
     </application>
 
 </manifest>
